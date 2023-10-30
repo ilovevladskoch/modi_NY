@@ -1,0 +1,36 @@
+.main-info {
+    margin: -195px 0 0;
+
+    h2:first-child {
+        max-width: 445px;
+        margin: 0 0 24px;
+    }
+
+    p {
+        margin: 0 0 12px;
+        max-width: 586px;
+    }
+
+    button {
+        margin: 36px 0 0;
+    }
+
+}
+
+@media(max-width: 1050px) {
+    .main-info {
+        margin: -155px 0 0;
+    }
+}
+
+@media(max-width: 920px) {
+    .main-info {
+        margin: -100px 0 0;
+    }
+}
+
+@media(max-width:768px) {
+    .main-info {
+        margin: 0;
+    }
+}

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera Medium'), local('/font/Gerbera-Medium'),
+        url('../font/Gerbera-Medium.woff2') format('woff2'),
+        url('../font/Gerbera-Medium.woff') format('woff'),
+        url('../font/Gerbera-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera Light'), local('../font/Gerbera-Light'),
+        url('../font/Gerbera-Light.woff2') format('woff2'),
+        url('../font/Gerbera-Light.woff') format('woff'),
+        url('../font/Gerbera-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: local('Gerbera Black'), local('../font/Gerbera-Black'),
+        url('../font/Gerbera-Black.woff2') format('woff2'),
+        url('../font/Gerbera-Black.woff') format('woff'),
+        url('../font/Gerbera-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gerbera';
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+h1,h2 {
+    color: #212121;
+
+    span { 
+        color: #E2232D;
+    }
+}
+
+h2 span {
+    text-decoration: underline;
+}
+
+h1 span {
+    font-weight: 900;
+}
+
+p {
+    color: #212121;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
+
+    .text-small {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.copyright p {
+    color: #747474;
+    font-size: 12px;
+    line-height: 20px; 
+}

@@ -1,0 +1,26 @@
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper {
+    max-width: 864px;
+}
+
+.content {
+    margin: 32px auto 0;
+}
+
+.footer {
+    margin: 0 0 120px;
+}
+
+@import "../scss/main/font";
+@import "../scss/main/buttons";
+@import "../scss/main/reset";
+
+@import "../scss/blocks/form";
+@import "../scss/blocks/check";
+@import "../scss/blocks/main-info";
+@import "../scss/blocks/checkbox";
